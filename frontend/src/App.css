@@ -1,0 +1,25 @@
+.App__container {
+    display: grid;
+    grid-template-areas:
+            "head head head"
+            "page page aside"
+            "page page aside"
+            "page page aside";
+    grid-template-rows: 1fr 9fr;
+    grid-template-columns: 2fr 2fr 1fr;
+    height: 100vh;
+
+}
+
+.App__header-container {
+    grid-area: head;
+}
+
+.App__page-container {
+    grid-area: page;
+    padding: 0 10% 0 10%;
+}
+
+.App__aside-container {
+    grid-area: aside;
+}

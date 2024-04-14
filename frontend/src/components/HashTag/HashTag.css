@@ -1,0 +1,8 @@
+.hash-tag {
+    all: unset;
+    padding: 2px;
+}
+
+.hash-tag:hover {
+    cursor: pointer;
+}
